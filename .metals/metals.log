@@ -72493,3 +72493,66 @@ WARNING: Unmatched cancel notification for request id 4
 2024.12.29 17:30:02 INFO  Shut down connection with build server.[0m
 2024.12.29 17:31:30 INFO  compiling root (1 scala source)[0m
 2024.12.29 17:31:30 INFO  time: compiled root in 0.2s[0m
+2024.12.29 17:36:38 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:36:38 INFO  time: compiled root in 0.1s[0m
+2024.12.29 17:40:04 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:40:04 INFO  time: compiled root in 0.11s[0m
+2024.12.29 17:40:27 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:40:27 INFO  time: compiled root in 0.11s[0m
+2024.12.29 17:41:45 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:41:45 INFO  time: compiled root in 0.12s[0m
+2024.12.29 17:42:28 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:42:28 INFO  time: compiled root in 0.12s[0m
+2024.12.29 17:42:46 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:42:46 INFO  time: compiled root in 0.21s[0m
+2024.12.29 17:42:49 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:42:49 INFO  time: compiled root in 0.12s[0m
+2024.12.29 17:42:53 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:42:53 INFO  time: compiled root in 0.11s[0m
+2024.12.29 17:44:39 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:44:39 INFO  time: compiled root in 99ms[0m
+2024.12.29 17:44:44 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:44:44 INFO  time: compiled root in 0.11s[0m
+2024.12.29 17:48:54 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:48:54 INFO  time: compiled root in 0.22s[0m
+2024.12.29 17:50:15 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:50:15 INFO  time: compiled root in 0.13s[0m
+2024.12.29 17:50:42 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:50:42 INFO  time: compiled root in 0.13s[0m
+2024.12.29 17:52:22 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:52:22 INFO  time: compiled root in 0.12s[0m
+2024.12.29 17:52:51 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:52:51 INFO  time: compiled root in 0.12s[0m
+2024.12.29 17:55:27 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:55:27 INFO  time: compiled root in 0.23s[0m
+2024.12.29 17:55:37 ERROR scalafmt: /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala:70: error: [dialect scala3] then expected but identifier found
+      println("overflow")
+      ^[0m
+2024.12.29 17:55:37 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:55:37 INFO  time: compiled root in 0.17s[0m
+2024.12.29 17:55:40 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:55:40 INFO  time: compiled root in 0.32s[0m
+2024.12.29 17:55:50 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:55:50 INFO  time: compiled root in 0.19s[0m
+2024.12.29 17:56:07 ERROR scalafmt: /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala:69: error: Invalid literal number
+      if input.count(_ == '>') > 1 || input.count(_ == '/')  > 1then
+                                                               ^[0m
+2024.12.29 17:56:07 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:56:07 INFO  time: compiled root in 0.14s[0m
+2024.12.29 17:56:12 ERROR scalafmt: /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala:69: error: Invalid literal number
+      if input.count(_ == '>') > 1 || input.count(_ == '/') > 1then
+                                                              ^[0m
+2024.12.29 17:56:12 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:56:12 INFO  time: compiled root in 0.29s[0m
+2024.12.29 17:56:14 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:56:14 INFO  time: compiled root in 0.17s[0m
+2024.12.29 17:57:08 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:57:08 INFO  time: compiled root in 0.15s[0m
+2024.12.29 17:57:47 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:57:47 INFO  time: compiled root in 0.16s[0m
+2024.12.29 17:59:21 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:59:21 INFO  time: compiled root in 0.15s[0m
+2024.12.29 18:01:21 INFO  compiling root (1 scala source)[0m
+2024.12.29 18:01:21 INFO  time: compiled root in 0.14s[0m
+2024.12.29 18:01:46 INFO  compiling root (1 scala source)[0m
+2024.12.29 18:01:46 INFO  time: compiled root in 0.15s[0m

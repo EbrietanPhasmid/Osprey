@@ -64,10 +64,9 @@ object FileReader {
     }
     val input = inputUntrimmed.filterNot(_.isWhitespace)
     if !input.contains(CONVERSION_SYMBOL) then return None
+    if input.count(_ == '>') > 1 || input.count(_ == '/') > 1 then return None
     if !input.contains(CONDITION_SYMBOL) then
       return Some { basicSoundChange(input) }
-    if input.filter(_ == '>').size > 1 || input.filter(_ == '/').size > 1 then
-      return None
     return Some(quaternarySoundChange(input))
   }
 }
