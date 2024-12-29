@@ -1,0 +1,8 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /Users/marcinzawadiak/Desk/osprey/src/main/scala/sanitise/Sanitise.scala:10:3 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m  }[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m   ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   Required: String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
