@@ -7,7 +7,7 @@ import scala.unchecked
 import soundchange.SoundChange
 
 object FileReader {
-  def createPhonemeGroupMap(): Map[Char, String] = {
+  def createPhonemeGroupMapList(): List[Map[Char, String]] = {
     val filename = "phonemegroups.txt"
     val lines = getLinesFromFile(filename)
     return convertToPhonemeGroupMap(lines)
@@ -40,8 +40,24 @@ object FileReader {
         List.empty
     }
   }
-  def convertToPhonemeGroupMap(inputList: List[String]): Map[Char, String] = {
-    return Map('P' -> "[k,t,sr")
+  def convertToPhonemeGroupMap(
+      inputList: List[String]
+  ): List[Map[Char, String]] = {
+    val ANY_CHARS = raw"[\u0000-\uFFFF]*"
+    val ANY_CHAR = raw"[\u0000-\uFFFF]"
+    val ASSIGNMENT_OPERATOR = raw"="
+    val validStringList = inputList.filter(_.count(_ == '=') == 1)
+    val pattern = raw"($ANY_CHAR)=($ANY_CHARS)".r
+    val mapCollection = validStringList.map(s =>
+      try
+        s.filterNot(_.isWhitespace) match
+          case pattern(key, strings) =>
+            Some(Map(key.charAt(0) -> s"[$strings]"))
+      catch case exception => None
+    )
+    mapCollection.collect(_ match
+      case Some(content) => content
+    )
   }
 
   def convertToSoundChange(inputUntrimmed: String): Option[SoundChange] = {
