@@ -4,10 +4,7 @@ package main
 import soundchange.*, os.*
 
 object Main extends App {
-  val output1 = SoundChange("o", "u", "#", "")("ono")
-  println(output1) // uno
-  val output2 = SoundChange("o", "u", "", "#")("ono")
-  println(output2) // onu
+  println(SoundChange("a", "e", "P", "")("masa"))
 
   def convertSoundChangeSeqToConjugate(
       soundChangeSeq: Seq[SoundChange]
