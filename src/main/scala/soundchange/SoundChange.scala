@@ -6,8 +6,8 @@ import scala.annotation.tailrec, san.*
 class SoundChange(
     val target: String,
     val output: String,
-    val leftCondition: String,
-    val rightCondition: String
+    val leftCondition: String = "",
+    val rightCondition: String = ""
 ) {
   def apply(word: String): String = {
     val PLACEHOLDER_GLYPH = "§"
@@ -21,8 +21,6 @@ class SoundChange(
     applySoundChange(
       input = proc,
       target = PLACEHOLDER_GLYPH,
-      leftCondition = "",
-      rightCondition = "",
       desiredOutput = output
     )
   }
