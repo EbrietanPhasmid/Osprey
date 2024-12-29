@@ -4,7 +4,7 @@ package main
 import soundchange.*, os.*
 
 object Main extends App {
-  println(SoundChange("a", "e", "aP", "")("amasma"))
+  println(SoundChange("a", "e", "aP", "")("amasata"))
 
   def convertSoundChangeSeqToConjugate(
       soundChangeSeq: Seq[SoundChange]

@@ -4,11 +4,15 @@ package san
 import scala.util.{Try, Success, Failure}
 import scala.annotation.tailrec
 
+// Sanitises and refactors input.
 object Sanitise {
 
   def sanitiseCondition(input: String, position: String): String = {
-    val sanitisedCondition = sanitiseBorder(input, position)
-    val result = phonemeGroupConvert(sanitisedCondition)
+    val sanitisedCondition =
+      sanitiseBorder(input, position) // Handles improper border handling.
+    val result = phonemeGroupConvert(
+      sanitisedCondition
+    ) // Converts set phoneme group markers into phoneme group regex and returns a string.
     result
   }
 
@@ -47,6 +51,7 @@ object Sanitise {
     "\uFFFF" * 10
   }
 
+  // PLACEHOLDER
   val phonemeCategoryMap: Map[Char, String] = Map('P' -> "[m,t,k]")
 
   def phonemeGroupConvert(input: String): String = {
