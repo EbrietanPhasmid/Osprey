@@ -2832,3 +2832,260 @@ WARNING: Unmatched cancel notification for request id 4
 2024.12.29 15:08:39 INFO  Shut down connection with build server.[0m
 2024.12.29 15:08:39 INFO  Shut down connection with build server.[0m
 2024.12.29 15:08:39 INFO  Shut down connection with build server.[0m
+2024.12.29 15:10:10 INFO  Started: Metals version 1.3.5 in folders '/Users/marcinzawadiak/Desk/osprey' for client Neovim 0.10.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@104bd3bd]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@2f02bc58]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@104bd3bd]
+2024.12.29 15:10:10 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 15:10:10 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:10:11 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:10:11 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:10:11 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:10:11 INFO  Attempting to connect to the build server...[0m
+2024.12.29 15:10:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/osprey/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 15:10:11 INFO  Attempting to connect to the build server...[0m
+2024.12.29 15:10:11 INFO  Attempting to connect to the build server...[0m
+2024.12.29 15:10:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/osprey/project/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 15:10:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/osprey/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 15:10:11 INFO  time: Connected to build server in 0.27s[0m
+2024.12.29 15:10:11 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.12.29 15:10:12 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:10:12 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:10:11 INFO  running doctor check[0m
+2024.12.29 15:10:11 INFO  java targets: root-test, osprey-build, root, osprey-build-build[0m
+2024.12.29 15:10:14 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 15:10:14 INFO  time: indexed workspace in 3.55s[0m
+Dec 29, 2024 3:10:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2024.12.29 15:10:27 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:10:27 INFO  time: compiled root in 0.15s[0m
+2024.12.29 15:10:31 INFO  Shutting down server[0m
+2024.12.29 15:10:31 INFO  shutting down Metals[0m
+2024.12.29 15:10:31 INFO  Shut down connection with build server.[0m
+2024.12.29 15:10:31 INFO  Shut down connection with build server.[0m
+2024.12.29 15:10:31 INFO  Shut down connection with build server.[0m
+2024.12.29 15:10:49 INFO  Started: Metals version 1.3.5 in folders '/Users/marcinzawadiak/Desk/osprey' for client Neovim 0.10.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@d88e5be]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@756f0207]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@d88e5be]
+2024.12.29 15:10:49 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 15:10:50 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:10:50 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:10:50 INFO  Attempting to connect to the build server...[0m
+2024.12.29 15:10:50 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/sanitise/Sanitise.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:10:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/osprey/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 15:10:50 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/sanitise/Sanitise.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:10:50 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/sanitise/Sanitise.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:10:50 INFO  Attempting to connect to the build server...[0m
+2024.12.29 15:10:50 INFO  Attempting to connect to the build server...[0m
+2024.12.29 15:10:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/osprey/project/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 15:10:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/osprey/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 15:10:50 INFO  time: Connected to build server in 0.36s[0m
+2024.12.29 15:10:50 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.12.29 15:10:50 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/sanitise/Sanitise.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:10:51 INFO  running doctor check[0m
+2024.12.29 15:10:51 INFO  java targets: root-test, osprey-build, root, osprey-build-build[0m
+2024.12.29 15:10:54 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 15:10:54 INFO  time: indexed workspace in 4.3s[0m
+Dec 29, 2024 3:10:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Dec 29, 2024 3:10:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2024.12.29 15:13:02 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:13:02 INFO  time: compiled root in 0.28s[0m
+2024.12.29 15:13:15 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:13:15 INFO  time: compiled root in 0.17s[0m
+2024.12.29 15:13:56 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:13:56 INFO  time: compiled root in 87ms[0m
+2024.12.29 15:17:01 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:17:01 INFO  time: compiled root in 0.19s[0m
+2024.12.29 15:17:14 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:17:14 INFO  time: compiled root in 0.17s[0m
+2024.12.29 15:17:30 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:17:30 INFO  time: compiled root in 84ms[0m
+2024.12.29 15:20:24 ERROR scalafmt: /Users/marcinzawadiak/Desk/osprey/src/main/scala/sanitise/Sanitise.scala:54: error: [dialect scala3] is not a valid refinement declaration
+      val result = Try(phonemeCategoryMap(input))
+      ^[0m
+2024.12.29 15:20:24 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:20:24 INFO  time: compiled root in 0.18s[0m
+2024.12.29 15:20:25 ERROR scalafmt: /Users/marcinzawadiak/Desk/osprey/src/main/scala/sanitise/Sanitise.scala:54: error: [dialect scala3] is not a valid refinement declaration
+      val result = Try(phonemeCategoryMap(input))
+      ^[0m
+2024.12.29 15:20:25 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:20:25 INFO  time: compiled root in 0.16s[0m
+2024.12.29 15:21:20 ERROR scalafmt: /Users/marcinzawadiak/Desk/osprey/src/main/scala/sanitise/Sanitise.scala:54: error: [dialect scala3] is not a valid refinement declaration
+      val result = Try(phonemeCategoryMap(input))
+      ^[0m
+2024.12.29 15:21:20 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:21:20 INFO  time: compiled root in 0.19s[0m
+2024.12.29 15:21:40 ERROR scalafmt: /Users/marcinzawadiak/Desk/osprey/src/main/scala/sanitise/Sanitise.scala:54: error: [dialect scala3] is not a valid refinement declaration
+      val result = Try(phonemeCategoryMap(input))
+      ^[0m
+2024.12.29 15:21:40 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:21:40 INFO  time: compiled root in 0.16s[0m
+2024.12.29 15:22:28 ERROR scalafmt: /Users/marcinzawadiak/Desk/osprey/src/main/scala/sanitise/Sanitise.scala:54: error: [dialect scala3] is not a valid refinement declaration
+      val result = Try(phonemeCategoryMap(input))
+      ^[0m
+2024.12.29 15:22:28 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:22:28 INFO  time: compiled root in 0.34s[0m
+2024.12.29 15:22:58 ERROR scalafmt: /Users/marcinzawadiak/Desk/osprey/src/main/scala/sanitise/Sanitise.scala:54: error: [dialect scala3] is not a valid refinement declaration
+      val result = Try(phonemeCategoryMap(input))
+      ^[0m
+2024.12.29 15:22:58 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:22:58 INFO  time: compiled root in 93ms[0m
+2024.12.29 15:23:01 ERROR scalafmt: /Users/marcinzawadiak/Desk/osprey/src/main/scala/sanitise/Sanitise.scala:54: error: [dialect scala3] is not a valid refinement declaration
+      val result = Try(phonemeCategoryMap(input))
+      ^[0m
+2024.12.29 15:23:01 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:23:01 INFO  time: compiled root in 81ms[0m
+2024.12.29 15:23:09 ERROR scalafmt: /Users/marcinzawadiak/Desk/osprey/src/main/scala/sanitise/Sanitise.scala:54: error: [dialect scala3] is not a valid refinement declaration
+      val result = Try(phonemeCategoryMap(input))
+      ^[0m
+2024.12.29 15:23:09 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:23:09 INFO  time: compiled root in 0.1s[0m
+2024.12.29 15:23:22 ERROR scalafmt: /Users/marcinzawadiak/Desk/osprey/src/main/scala/sanitise/Sanitise.scala:54: error: [dialect scala3] is not a valid refinement declaration
+      val result = Try(phonemeCategoryMap(input))
+      ^[0m
+2024.12.29 15:23:22 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:23:22 INFO  time: compiled root in 92ms[0m
+2024.12.29 15:23:52 ERROR scalafmt: /Users/marcinzawadiak/Desk/osprey/src/main/scala/sanitise/Sanitise.scala:54: error: [dialect scala3] is not a valid refinement declaration
+      val result = Try(phonemeCategoryMap(input))
+      ^[0m
+2024.12.29 15:23:52 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:23:52 INFO  time: compiled root in 85ms[0m
+2024.12.29 15:23:55 ERROR scalafmt: /Users/marcinzawadiak/Desk/osprey/src/main/scala/sanitise/Sanitise.scala:54: error: [dialect scala3] is not a valid refinement declaration
+      val result = Try(phonemeCategoryMap(input))
+      ^[0m
+2024.12.29 15:23:55 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:23:55 INFO  time: compiled root in 81ms[0m
+2024.12.29 15:24:39 ERROR scalafmt: /Users/marcinzawadiak/Desk/osprey/src/main/scala/sanitise/Sanitise.scala:54: error: [dialect scala3] is not a valid refinement declaration
+      val result = Try(phonemeCategoryMap(input))
+      ^[0m
+2024.12.29 15:24:39 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:24:39 INFO  time: compiled root in 85ms[0m
+2024.12.29 15:25:07 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:25:07 INFO  time: compiled root in 0.16s[0m
+2024.12.29 15:25:15 INFO  Shutting down server[0m
+2024.12.29 15:25:15 INFO  shutting down Metals[0m
+2024.12.29 15:25:15 INFO  Shut down connection with build server.[0m
+2024.12.29 15:25:15 INFO  Shut down connection with build server.[0m
+2024.12.29 15:25:15 INFO  Shut down connection with build server.[0m
+Dec 29, 2024 3:25:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:191)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:160)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.$anonfun$cancel$1(FutureWithTimeout.scala:37)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.cancel(FutureWithTimeout.scala:37)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.utils.RequestRegistry.cancel(RequestRegistry.scala:94)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:450)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:182)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:174)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:203)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:268)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:290)
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:102)
+	at java.base/java.io.OutputStream.write(OutputStream.java:124)
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:79)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:139)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:110)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@45ca843[Shutting down, pool size = 7, active threads = 2, queued tasks = 0, completed tasks = 26086]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024.12.29 15:25:21 INFO  Started: Metals version 1.3.5 in folders '/Users/marcinzawadiak/Desk/osprey' for client Neovim 0.10.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@354bfba2]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@58d31597]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@354bfba2]
+2024.12.29 15:25:21 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 15:25:21 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:25:22 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:25:22 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:25:22 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:25:22 INFO  Attempting to connect to the build server...[0m
+2024.12.29 15:25:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/osprey/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 15:25:22 INFO  Attempting to connect to the build server...[0m
+2024.12.29 15:25:22 INFO  Attempting to connect to the build server...[0m
+2024.12.29 15:25:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/osprey/project/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 15:25:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/osprey/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 15:25:22 INFO  time: Connected to build server in 0.33s[0m
+2024.12.29 15:25:22 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.12.29 15:25:23 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:25:23 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:25:23 INFO  running doctor check[0m
+2024.12.29 15:25:23 INFO  java targets: root-test, osprey-build, root, osprey-build-build[0m
+2024.12.29 15:25:26 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:25:26 INFO  time: compiled root in 0.2s[0m
+2024.12.29 15:25:27 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 15:25:27 INFO  time: indexed workspace in 4.51s[0m
+2024.12.29 15:25:29 INFO  Shutting down server[0m
+2024.12.29 15:25:29 INFO  shutting down Metals[0m
+2024.12.29 15:25:29 INFO  Shut down connection with build server.[0m
+2024.12.29 15:25:29 INFO  Shut down connection with build server.[0m
+2024.12.29 15:25:29 INFO  Shut down connection with build server.[0m
+2024.12.29 15:25:50 INFO  Started: Metals version 1.3.5 in folders '/Users/marcinzawadiak/Desk/osprey' for client Neovim 0.10.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@28295a4d]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@52c1d358]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@28295a4d]
+2024.12.29 15:25:50 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 15:25:50 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:25:50 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:25:50 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:25:51 INFO  Attempting to connect to the build server...[0m
+2024.12.29 15:25:50 INFO  no build target found for /Users/marcinzawadiak/Desk/osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 15:25:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/osprey/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 15:25:51 INFO  Attempting to connect to the build server...[0m
+2024.12.29 15:25:51 INFO  Attempting to connect to the build server...[0m
+2024.12.29 15:25:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/osprey/project/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 15:25:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/osprey/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 15:25:51 INFO  time: Connected to build server in 0.3s[0m
+2024.12.29 15:25:51 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.12.29 15:25:51 INFO  running doctor check[0m
+2024.12.29 15:25:51 INFO  java targets: root-test, osprey-build, root, osprey-build-build[0m
+Dec 29, 2024 3:25:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2024.12.29 15:25:53 INFO  compiling root (1 scala source)[0m
+2024.12.29 15:25:53 INFO  time: compiled root in 0.44s[0m
+2024.12.29 15:25:55 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 15:25:55 INFO  Shutting down server[0m
+2024.12.29 15:25:55 INFO  shutting down Metals[0m
+2024.12.29 15:25:55 INFO  Shut down connection with build server.[0m
+2024.12.29 15:25:55 INFO  Shut down connection with build server.[0m
+2024.12.29 15:25:55 INFO  Shut down connection with build server.[0m
+2024.12.29 15:25:55 INFO  unable to setup persistent H2 database with AUTO_SERVER=true, falling back to AUTO_SERVER=false.[0m

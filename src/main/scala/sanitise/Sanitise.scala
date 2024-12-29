@@ -8,7 +8,7 @@ object Sanitise {
 
   def sanitiseCondition(input: String, position: String): String = {
     val sanitisedCondition = sanitiseBorder(input, position)
-    val result = convertToRegex(sanitisedCondition)
+    val result = phonemeGroupConvert(sanitisedCondition)
     result
   }
 
@@ -47,15 +47,16 @@ object Sanitise {
     "\uFFFF" * 10
   }
 
-  val phonemeCategoryMap: Map[String, String] = Map("P" -> "[m,t,k]")
+  val phonemeCategoryMap: Map[Char, String] = Map('P' -> "[m,t,k]")
 
-  def convertToRegex(input: String): String = {
-    val attemptedConversionToRegex: Try[String] = Try {
-      phonemeCategoryMap(input)
+  def phonemeGroupConvert(input: String): String = {
+    def convertToRegexComponent(input: Char): String = {
+      val result = Try(phonemeCategoryMap(input))
+      result match {
+        case Success(group) => return group
+        case Failure(e)     => return input.toString
+      }
     }
-    attemptedConversionToRegex match {
-      case Success(regexComponent) => return regexComponent
-      case Failure(e)              => return input
-    }
+    input.map(char => convertToRegexComponent(char)).toList.mkString
   }
 }
