@@ -72224,3 +72224,272 @@ SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@7089079
 2024.12.29 17:03:42 INFO  Shut down connection with build server.[0m
 2024.12.29 17:03:42 INFO  Shut down connection with build server.[0m
 2024.12.29 17:03:42 INFO  Shut down connection with build server.[0m
+2024.12.29 17:04:35 INFO  Started: Metals version 1.3.5 in folders '/Users/marcinzawadiak/Desk/Osprey' for client Neovim 0.10.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@3a1ba912]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@6cc4fedd]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@3a1ba912]
+2024.12.29 17:04:35 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 17:04:35 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:04:36 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:04:36 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:04:36 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:04:36 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:04:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:04:36 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:04:36 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:04:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/project/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:04:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:04:36 INFO  time: Connected to build server in 0.26s[0m
+2024.12.29 17:04:36 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.12.29 17:04:37 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:04:37 INFO  running doctor check[0m
+2024.12.29 17:04:37 INFO  java targets: osprey-build, root-test, osprey-build-build, root[0m
+2024.12.29 17:04:38 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 17:04:38 INFO  time: indexed workspace in 2.06s[0m
+Dec 29, 2024 5:04:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2024.12.29 17:05:09 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:05:09 INFO  time: compiled root in 0.18s[0m
+2024.12.29 17:05:22 INFO  Started: Metals version 1.3.5 in folders '/Users/marcinzawadiak/Desk/Osprey' for client Neovim 0.10.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@388927b3]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@5047b85a]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@388927b3]
+2024.12.29 17:05:22 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 17:05:22 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:05:22 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:05:22 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:05:22 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:05:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:05:22 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:05:22 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:05:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/project/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:05:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:05:23 INFO  time: Connected to build server in 0.3s[0m
+2024.12.29 17:05:23 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.12.29 17:05:22 INFO  running doctor check[0m
+2024.12.29 17:05:22 INFO  java targets: osprey-build, root-test, osprey-build-build, root[0m
+2024.12.29 17:05:25 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 17:05:25 INFO  time: indexed workspace in 2.49s[0m
+2024.12.29 17:05:25 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:05:25 INFO  time: compiled root in 0.31s[0m
+Dec 29, 2024 5:05:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2024.12.29 17:05:25 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:05:25 INFO  time: compiled root in 0.14s[0m
+2024.12.29 17:05:35 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:05:35 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.5' (since 12.36s)[0m
+2024.12.29 17:05:35 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:05:35 INFO  time: compiled root in 95ms[0m
+2024.12.29 17:05:35 INFO  time: compiled root in 99ms[0m
+2024.12.29 17:06:09 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:06:09 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.5' (since 1m 32.922s)[0m
+2024.12.29 17:06:09 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:06:09 2024.12.29 17:06:09INFO   time: compiled root in 45msINFO [0m 
+time: compiled root in 31ms[0m
+2024.12.29 17:06:09 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:06:09 INFO  time: compiled root in 40ms[0m
+2024.12.29 17:06:18 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:06:18 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.5' (since 55.362s)[0m
+2024.12.29 17:06:18 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:06:18 INFO  time: compiled root in 39ms[0m
+2024.12.29 17:06:18 INFO  time: compiled root in 39ms[0m
+2024.12.29 17:06:18 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:06:18 INFO  time: compiled root in 52ms[0m
+2024.12.29 17:06:45 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:06:45 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.5' (since 2m 9.062s)[0m
+2024.12.29 17:06:45 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:06:45 INFO  time: compiled root in 41ms[0m
+2024.12.29 17:06:45 INFO  time: compiled root in 39ms[0m
+2024.12.29 17:06:45 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:06:45 INFO  time: compiled root in 33ms[0m
+2024.12.29 17:07:14 ERROR scalafmt: /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala:68: error: [dialect scala3] end of file expected but } found
+}
+^[0m
+2024.12.29 17:07:14 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.5' (since 1m 51.232s)[0m
+2024.12.29 17:07:14 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:07:14 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:07:14 INFO  time: compiled root in 69ms[0m
+2024.12.29 17:07:14 INFO  time: compiled root in 69ms[0m
+2024.12.29 17:07:14 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:07:14 INFO  time: compiled root in 74ms[0m
+2024.12.29 17:07:39 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.5' (since 2m 16.039s)[0m
+2024.12.29 17:07:392024.12.29 17:07:39 INFO  compiling root (2 scala sources)[0m 
+INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:07:39 INFO  time: compiled root in 66ms[0m
+2024.12.29 17:07:39 INFO  time: compiled root in 67ms[0m
+2024.12.29 17:07:39 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:07:39 INFO  time: compiled root in 77ms[0m
+2024.12.29 17:07:45 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:07:45 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.5' (since 3m 8.817s)[0m
+2024.12.29 17:07:45 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:07:45 INFO  time: compiled root in 72ms[0m
+2024.12.29 17:07:45 INFO  time: compiled root in 68ms[0m
+2024.12.29 17:07:45 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:07:45 INFO  time: compiled root in 87ms[0m
+2024.12.29 17:07:46 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.5' (since 3m 9.833s)[0m
+2024.12.29 17:07:46 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:07:46 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:07:46 INFO  time: compiled root in 70ms[0m
+2024.12.29 17:07:46 INFO  time: compiled root in 71ms[0m
+2024.12.29 17:07:46 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:07:46 INFO  time: compiled root in 65ms[0m
+2024.12.29 17:07:47 INFO  Shutting down server[0m
+2024.12.29 17:07:47 INFO  shutting down Metals[0m
+2024.12.29 17:07:47 INFO  Shut down connection with build server.[0m
+2024.12.29 17:07:47 INFO  Shut down connection with build server.[0m
+2024.12.29 17:07:47 INFO  Shut down connection with build server.[0m
+2024.12.29 17:07:56 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:07:56 INFO  time: compiled root in 90ms[0m
+2024.12.29 17:08:04 INFO  Started: Metals version 1.3.5 in folders '/Users/marcinzawadiak/Desk/Osprey' for client Neovim 0.10.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@176246c2]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@6c12f0e7]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@176246c2]
+2024.12.29 17:08:04 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 17:08:04 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:08:04 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:08:04 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:08:04 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:08:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:08:04 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:08:04 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:08:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/project/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:08:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:08:04 INFO  time: Connected to build server in 0.29s[0m
+2024.12.29 17:08:04 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.12.29 17:08:05 INFO  running doctor check[0m
+2024.12.29 17:08:05 INFO  java targets: osprey-build, root-test, osprey-build-build, root[0m
+2024.12.29 17:08:06 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:08:06 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.5' (since 3m 29.782s)[0m
+2024.12.29 17:08:06 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:08:06 INFO  time: compiled root in 74ms[0m
+2024.12.29 17:08:06 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:08:06 INFO  time: compiled root in 80ms[0m
+2024.12.29 17:08:06 INFO  time: compiled root in 0.23s[0m
+Dec 29, 2024 5:08:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2024.12.29 17:08:06 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 17:08:07 INFO  time: indexed workspace in 2.74s[0m
+2024.12.29 17:08:08 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:08:08 INFO  time: compiled root in 68ms[0m
+2024.12.29 17:08:08 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:08:08 INFO  time: compiled root in 0.21s[0m
+2024.12.29 17:08:13 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.5' (since 8.605s)[0m
+2024.12.29 17:08:13 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:08:13 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:08:13 INFO  time: compiled root in 58ms[0m
+2024.12.29 17:08:13 INFO  time: compiled root in 58ms[0m
+2024.12.29 17:08:13 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:08:13 INFO  time: compiled root in 84ms[0m
+2024.12.29 17:08:20 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:08:20 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.5' (since 15.126s)[0m
+2024.12.29 17:08:20 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:08:20 INFO  time: compiled root in 61ms[0m2024.12.29 17:08:20
+ INFO  time: compiled root in 69ms[0m
+2024.12.29 17:08:20 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:08:20 INFO  time: compiled root in 85ms[0m
+2024.12.29 17:08:27 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.5' (since 22.351s)[0m
+2024.12.29 17:08:27 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:08:27 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:08:27 INFO  time: compiled root in 0.15s[0m
+2024.12.29 17:08:27 INFO  time: compiled root in 0.15s[0m
+Exception in thread "pool-7-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024.12.29 17:08:33 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.5' (since 28.819s)[0m
+2024.12.29 17:08:34 INFO  Shutting down server[0m
+2024.12.29 17:08:34 INFO  shutting down Metals[0m
+2024.12.29 17:08:34 INFO  Shut down connection with build server.[0m
+2024.12.29 17:08:34 INFO  Shut down connection with build server.[0m
+2024.12.29 17:08:34 INFO  Shut down connection with build server.[0m
+2024.12.29 17:10:23 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:10:23 INFO  time: compiled root in 0.12s[0m
+2024.12.29 17:11:32 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:11:32 INFO  time: compiled root in 0.1s[0m
+2024.12.29 17:12:31 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:12:31 INFO  time: compiled root in 0.13s[0m
+2024.12.29 17:12:38 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:12:38 INFO  time: compiled root in 0.13s[0m
+2024.12.29 17:14:52 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:14:52 INFO  time: compiled root in 0.12s[0m
+2024.12.29 17:18:09 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:18:09 INFO  time: compiled root in 0.13s[0m
+2024.12.29 17:18:09 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:18:09 INFO  time: compiled root in 0.11s[0m
+2024.12.29 17:18:10 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:18:10 INFO  time: compiled root in 0.12s[0m
+2024.12.29 17:18:10 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:18:10 INFO  time: compiled root in 0.12s[0m
+2024.12.29 17:18:16 INFO  compiling root (2 scala sources)[0m
+2024.12.29 17:18:16 INFO  time: compiled root in 0.16s[0m
+2024.12.29 17:21:19 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:21:19 INFO  time: compiled root in 0.13s[0m
+2024.12.29 17:21:36 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:21:36 INFO  time: compiled root in 0.11s[0m
+2024.12.29 17:22:05 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:22:05 INFO  time: compiled root in 0.12s[0m
+2024.12.29 17:23:59 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:23:59 INFO  time: compiled root in 63ms[0m
+2024.12.29 17:24:48 ERROR scalafmt: /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala:34: error: [dialect scala3] illegal start of simple expression
+        try val lines = file.getLines
+            ^[0m
+2024.12.29 17:24:48 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:24:48 INFO  time: compiled root in 0.17s[0m
+2024.12.29 17:25:30 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:25:30 INFO  time: compiled root in 64ms[0m
+2024.12.29 17:25:33 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:25:33 INFO  time: compiled root in 84ms[0m
+2024.12.29 17:25:43 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:25:43 INFO  time: compiled root in 0.13s[0m
+2024.12.29 17:27:42 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:27:42 INFO  time: compiled root in 0.13s[0m
+2024.12.29 17:28:22 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:28:22 INFO  time: compiled root in 0.14s[0m
+2024.12.29 17:28:32 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:28:32 INFO  time: compiled root in 0.14s[0m
+2024.12.29 17:29:02 INFO  Started: Metals version 1.3.5 in folders '/Users/marcinzawadiak/Desk/Osprey' for client Neovim 0.10.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@3686b35e]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@563cfd72]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@3686b35e]
+2024.12.29 17:29:02 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 17:29:02 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:29:02 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:29:02 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:29:02 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:29:02 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:29:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:29:02 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:29:02 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:29:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/project/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:29:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:29:03 INFO  time: Connected to build server in 0.25s[0m
+2024.12.29 17:29:03 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.12.29 17:29:03 INFO  running doctor check[0m
+2024.12.29 17:29:03 INFO  java targets: osprey-build, root-test, osprey-build-build, root[0m
+Dec 29, 2024 5:29:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2024.12.29 17:29:04 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 17:29:04 INFO  time: indexed workspace in 2.4s[0m
+2024.12.29 17:29:06 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:29:06 INFO  time: compiled root in 0.1s[0m
+2024.12.29 17:29:56 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:29:56 INFO  time: compiled root in 92ms[0m
+2024.12.29 17:30:02 INFO  Deduplicating compilation of root from bsp client 'Metals 1.3.5' (since 59.367s)[0m
+2024.12.29 17:30:02 INFO  Shutting down server[0m
+2024.12.29 17:30:02 INFO  shutting down Metals[0m
+2024.12.29 17:30:02 INFO  Shut down connection with build server.[0m
+2024.12.29 17:30:02 INFO  Shut down connection with build server.[0m
+2024.12.29 17:30:02 INFO  Shut down connection with build server.[0m
+2024.12.29 17:31:30 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:31:30 INFO  time: compiled root in 0.2s[0m
