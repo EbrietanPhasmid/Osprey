@@ -18,11 +18,7 @@ class SoundChange(
       rightCondition = Sanitise.sanitiseCondition(rightCondition, "right"),
       desiredOutput = PLACEHOLDER_GLYPH
     )
-    applySoundChange(
-      input = proc,
-      target = PLACEHOLDER_GLYPH,
-      desiredOutput = output
-    )
+    proc.replaceAll(PLACEHOLDER_GLYPH, output)
   }
 
   override def toString
