@@ -72133,3 +72133,94 @@ WARNING: Unmatched cancel notification for request id 4
 2024.12.29 16:59:31 INFO  Shut down connection with build server.[0m
 2024.12.29 16:59:31 INFO  Shut down connection with build server.[0m
 2024.12.29 16:59:31 INFO  Shut down connection with build server.[0m
+2024.12.29 17:00:51 INFO  Started: Metals version 1.3.5 in folders '/Users/marcinzawadiak/Desk/Osprey' for client Neovim 0.10.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@2bab25bf]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@fff4784]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@2bab25bf]
+2024.12.29 17:00:51 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 17:00:51 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:00:51 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:00:51 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:00:52 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:00:51 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:00:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:00:52 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:00:52 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:00:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/project/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:00:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:00:52 INFO  time: Connected to build server in 0.24s[0m
+2024.12.29 17:00:52 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.12.29 17:00:52 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:00:52 INFO  running doctor check[0m
+2024.12.29 17:00:52 INFO  java targets: osprey-build, root-test, osprey-build-build, root[0m
+Dec 29, 2024 5:00:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2024.12.29 17:00:54 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 17:00:54 INFO  time: indexed workspace in 2.26s[0m
+2024.12.29 17:01:14 INFO  compiling root (1 scala source)[0m
+2024.12.29 17:01:14 INFO  time: compiled root in 0.15s[0m
+2024.12.29 17:01:16 INFO  Shutting down server[0m
+2024.12.29 17:01:16 INFO  shutting down Metals[0m
+2024.12.29 17:01:16 INFO  Shut down connection with build server.[0m
+2024.12.29 17:01:16 INFO  Shut down connection with build server.[0m
+2024.12.29 17:01:16 INFO  Shut down connection with build server.[0m
+2024.12.29 17:01:51 INFO  Started: Metals version 1.3.5 in folders '/Users/marcinzawadiak/Desk/Osprey' for client Neovim 0.10.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@41a0d11e]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@210d2f73]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@41a0d11e]
+2024.12.29 17:01:51 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 17:01:51 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:01:52 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:01:52 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:01:52 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:01:52 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:01:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:01:52 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:01:52 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:01:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/project/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:01:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:01:53 INFO  time: Connected to build server in 0.28s[0m
+2024.12.29 17:01:53 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.12.29 17:01:53 INFO  running doctor check[0m
+2024.12.29 17:01:53 INFO  java targets: osprey-build, root-test, osprey-build-build, root[0m
+2024.12.29 17:01:55 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 17:01:55 INFO  time: indexed workspace in 2.19s[0m
+Dec 29, 2024 5:01:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2024.12.29 17:02:29 INFO  Shutting down server[0m
+2024.12.29 17:02:29 INFO  shutting down Metals[0m
+2024.12.29 17:02:29 INFO  Shut down connection with build server.[0m
+2024.12.29 17:02:29 INFO  Shut down connection with build server.[0m
+2024.12.29 17:02:29 INFO  Shut down connection with build server.[0m
+2024.12.29 17:03:36 INFO  Started: Metals version 1.3.5 in folders '/Users/marcinzawadiak/Desk/Osprey' for client Neovim 0.10.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@7089079e]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@794c8035]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@7089079e]
+2024.12.29 17:03:36 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 17:03:36 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:03:37 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:03:37 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:03:37 INFO  no build target found for /Users/marcinzawadiak/Desk/Osprey/src/main/scala/filereader/FileReader.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.12.29 17:03:37 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:03:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:03:37 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:03:37 INFO  Attempting to connect to the build server...[0m
+2024.12.29 17:03:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/project/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:03:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/marcinzawadiak/Desk/Osprey/project/.metals/bsp.trace.json or /Users/marcinzawadiak/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.12.29 17:03:37 INFO  time: Connected to build server in 0.28s[0m
+2024.12.29 17:03:37 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.12.29 17:03:37 INFO  running doctor check[0m
+2024.12.29 17:03:37 INFO  java targets: osprey-build, root-test, osprey-build-build, root[0m
+2024.12.29 17:03:39 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.12.29 17:03:39 INFO  time: indexed workspace in 2.04s[0m
+2024.12.29 17:03:42 INFO  Shutting down server[0m
+2024.12.29 17:03:42 INFO  shutting down Metals[0m
+2024.12.29 17:03:42 INFO  Shut down connection with build server.[0m
+2024.12.29 17:03:42 INFO  Shut down connection with build server.[0m
+2024.12.29 17:03:42 INFO  Shut down connection with build server.[0m

@@ -29,7 +29,7 @@ def createWorldList(): List[String] = {
   getLinesFromFile(filename)
 }
 def getLinesFromFile(filename: String): List[String] = {
-  val RESOURCE_DIRECTORY: String = "~/Desk/Osprey/Resources/"
+  val RESOURCE_DIRECTORY: String = "~/Desk/Osprey/resources/"
   val fileDirectory: String = s"$RESOURCE_DIRECTORY$filename"
   val file = Source.fromFile(fileDirectory)
   val lines = file.getLines
